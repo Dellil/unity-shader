@@ -28,7 +28,7 @@ Shader "Custom/Example2"
 
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
-            o.Albedo = float3(1, 1, 1) + _BrightDark;
+            o.Albedo = float3(_Red, _Green, _Blue) + _BrightDark;
             o.Alpha = 1;
         }
         ENDCG

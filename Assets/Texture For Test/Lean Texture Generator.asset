@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b02745bbaa67384f96b839662346fba, type: 3}
+  m_Name: Lean Texture Generator
+  m_EditorClassIdentifier: 
+  data:
+    preset: 11
+    settingsFrom: {fileID: 2800000, guid: fd64643d22f91a549a9aab893a1f161b, type: 3}
+    wrapModeU: 0
+    wrapModeV: 0
+    mipmapEnabled: 0
+    create:
+      rid: 9039322683797405699
+    filters:
+    - rid: 9039322683797405700
+  references:
+    version: 2
+    RefIds:
+    - rid: 9039322683797405699
+      type: {class: LeanCreateTexture, ns: Lean.Texture, asm: LeanTexture}
+      data:
+        texture: {fileID: 2800000, guid: fd64643d22f91a549a9aab893a1f161b, type: 3}
+        overrideSize:
+          x: -1
+          y: -1
+    - rid: 9039322683797405700
+      type: {class: LeanFilterMultiply, ns: Lean.Texture, asm: LeanTexture}
+      data:
+        channels: 0
+        multiplier: 1
+        multiplierR: 1
+        multiplierG: 1
+        multiplierB: 1
+        multiplierA: 1
