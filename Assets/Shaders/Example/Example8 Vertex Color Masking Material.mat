@@ -36,6 +36,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 74a25dfbbcb3fa94e9654588e2794e7e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex5:
+        m_Texture: {fileID: 2800000, guid: c897baf0da62f0e44bc09fb35a37e3f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Glossiness: 0.5
