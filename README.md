@@ -16,3 +16,7 @@
 - Vertex masking shader (by vertex's RGB)
 
 ![vertex color and masking](https://user-images.githubusercontent.com/42995061/183026153-daf9ed41-455d-4d7a-ade2-8fd7ac971203.PNG)
+
+- Vertex masking with uv handling
+
+![출렁출렁](https://user-images.githubusercontent.com/42995061/183033466-f474ed6c-65b5-49cb-ad94-87b2ef9b6793.gif)
